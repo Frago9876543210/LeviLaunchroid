@@ -10,7 +10,7 @@ public class PlayStoreValidator {
     private static final String PLAY_STORE_INSTALLER = "com.android.vending";
 
     public static boolean isMinecraftFromPlayStore(Context context) {
-        return false;
+        return true;
     }
 
     public static boolean isMinecraftInstalled(Context context) {
